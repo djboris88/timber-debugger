@@ -1,0 +1,28 @@
+{
+	"name": "djboris88/timber-debugger",
+	"description": "Composer package which provides some extra debugging options for Timber",
+	"keywords": ["twig", "timber", "debug"],
+	"homepage": "https://github.com/djboris88/timber-include-comments",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Boris Đemrovski",
+			"email": "djboris88@gmail.com",
+			"role": "developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Djboris88\\Timber\\": "src/"
+		},
+		"files": [
+			"functions.php"
+		]
+	},
+	"require": {
+		"php": ">=5.6",
+		"ajgl/breakpoint-twig-extension": "^0.3.1",
+		"hellonico/twig-dump-extension": "^0.1.0",
+		"djboris88/twig-commented-include": "^1.1"
+	}
+}

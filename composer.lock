@@ -1,0 +1,425 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fb4c773c3268bb038137408d26a5a77e",
+    "packages": [
+        {
+            "name": "ajgl/breakpoint-twig-extension",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ajgarlag/AjglBreakpointTwigExtension.git",
+                "reference": "360ec6351ad7e1968ee78abb31430046c2e04fc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ajgarlag/AjglBreakpointTwigExtension/zipball/360ec6351ad7e1968ee78abb31430046c2e04fc5",
+                "reference": "360ec6351ad7e1968ee78abb31430046c2e04fc5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "twig/twig": "^1.14|^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5",
+                "symfony/framework-bundle": "^2.7|^3.2",
+                "symfony/twig-bundle": "^2.7|^3.2"
+            },
+            "suggest": {
+                "ext-xdebug": "The Xdebug extension is required for the breakpoint to work",
+                "symfony/framework-bundle": "The framework bundle to integrate the extension into Symfony",
+                "symfony/twig-bundle": "The twig bundle to integrate the extension into Symfony"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ajgl\\Twig\\Extension\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio J. García Lagar",
+                    "email": "aj@garcialagar.es",
+                    "homepage": "http://aj.garcialagar.es",
+                    "role": "developer"
+                }
+            ],
+            "description": "Twig extension to set breakpoints",
+            "homepage": "https://github.com/ajgarlag/AjglBreakpointTwigExtension",
+            "keywords": [
+                "Xdebug",
+                "breakpoint",
+                "twig"
+            ],
+            "time": "2017-11-20T13:04:11+00:00"
+        },
+        {
+            "name": "djboris88/twig-commented-include",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/djboris88/twig-commented-include.git",
+                "reference": "424e0132e5416eadb3b02b7288b5a9d9df6b2475"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/djboris88/twig-commented-include/zipball/424e0132e5416eadb3b02b7288b5a9d9df6b2475",
+                "reference": "424e0132e5416eadb3b02b7288b5a9d9df6b2475",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "twig/twig": "^1.14|^2.0"
+            },
+            "require-dev": {
+                "symfony/framework-bundle": "^2.7|^3.2",
+                "symfony/twig-bundle": "^2.7|^3.2"
+            },
+            "suggest": {
+                "symfony/framework-bundle": "The framework bundle to integrate the extension into Symfony",
+                "symfony/twig-bundle": "The twig bundle to integrate the extension into Symfony"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Djboris88\\Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Boris Đemrovski",
+                    "email": "djboris88@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Twig extension which outputs HTML comments before and after the `include` tag",
+            "homepage": "https://github.com/djboris88/twig-include-comments",
+            "keywords": [
+                "comments",
+                "debug",
+                "html",
+                "twig"
+            ],
+            "time": "2018-12-03T16:17:27+00:00"
+        },
+        {
+            "name": "hellonico/twig-dump-extension",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nlemoine/twig-dump-extension.git",
+                "reference": "3d35d16041f4a53a305743757760f069ac7f3596"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nlemoine/twig-dump-extension/zipball/3d35d16041f4a53a305743757760f069ac7f3596",
+                "reference": "3d35d16041f4a53a305743757760f069ac7f3596",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/var-dumper": "^3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HelloNico\\Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Lemoine",
+                    "email": "dev@helloni.co",
+                    "homepage": "https://github.com/nlemoine"
+                }
+            ],
+            "description": "VarDumper Twig extension",
+            "homepage": "https://github.com/nlemoine/twig-dump-extension",
+            "time": "2017-10-02T20:41:19+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2018-08-06T14:22:27+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-09-21T13:07:52+00:00"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v3.4.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "6867713afe6c50ade2f34ed6435563b065a52145"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6867713afe6c50ade2f34ed6435563b065a52145",
+                "reference": "6867713afe6c50ade2f34ed6435563b065a52145",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "twig/twig": "~1.34|~2.4"
+            },
+            "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                "ext-intl": "To show region name in time zone dump",
+                "ext-symfony_debug": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony mechanism for exploring and dumping PHP variables",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "time": "2018-11-20T16:10:26+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/6a5f676b77a90823c2d4eaf76137b771adf31323",
+                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/debug": "^2.7",
+                "symfony/phpunit-bridge": "^3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "https://twig.symfony.com/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2018-07-13T07:18:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": []
+}
