@@ -21,8 +21,8 @@
 	},
 	"require": {
 		"php": ">=5.6",
-		"ajgl/breakpoint-twig-extension": "^0.3.1",
-		"hellonico/twig-dump-extension": "^0.1.0",
-		"djboris88/twig-commented-include": "^1.1"
+		"ajgl/breakpoint-twig-extension": "^0.3.4",
+		"hellonico/twig-dump-extension": "^1.0",
+		"djboris88/twig-commented-include": "^1.2"
 	}
 }
